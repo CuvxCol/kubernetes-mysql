@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-mysql57-config
+  namespace: kube-mysql57
+data:
+  host: mysql57
+  name: empresa_php

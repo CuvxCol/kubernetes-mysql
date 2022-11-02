@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: db-mysql-config
-data:
-  host: mysql
-  name: empresa_php

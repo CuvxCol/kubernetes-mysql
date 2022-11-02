@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: kube-mysql57
+  labels:
+    app: mysql57
+    tier: database

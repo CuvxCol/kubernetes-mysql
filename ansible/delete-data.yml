@@ -1,0 +1,9 @@
+- hosts: all # run on the "all" hosts category from ansible-hosts.txt
+  # become means be superuser
+  become: true
+  remote_user: ubuntu
+  tasks:
+  - name: Ansible delete directory example
+    file:
+      path: /datos_kube/data/mysql57
+      state: absent
