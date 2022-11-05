@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-mysql56-config
+  namespace: kube-mysql56
+data:
+  host: mysql56
+  name: empresa_php

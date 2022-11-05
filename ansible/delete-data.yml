@@ -5,5 +5,5 @@
   tasks:
   - name: Ansible delete directory example
     file:
-      path: /datos_kube/data/mysql57
+      path: /datos_kube/data/mysql56
       state: absent
